@@ -1,0 +1,23 @@
+{
+    "name": "ahmetaksoy/eloquent-castable",
+    "description": "This adds the ability to write your own custom casts.",
+    "type": "library",
+    "homepage": "https://github.com/ahmetaksoy/eloquent-castable",
+    "authors": [
+        {
+            "name": "Ahmet Aksoy",
+            "email": "ahmetaksoy@ahmetaksoy.gen.tr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "illuminate/database": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AhmetAksoy\\EloquentCastable\\": "src/"
+        }
+    }
+}
